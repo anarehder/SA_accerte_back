@@ -1,3 +1,8 @@
+export type ApplicationError = {
+    name: string;
+    message: string;
+};
+
 export type HostListOutputDBParams = {
     hostid: number;
     hostName: string;
