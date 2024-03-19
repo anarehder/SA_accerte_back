@@ -9,13 +9,8 @@ export type HostListOutputDBParams = {
 };
 
 export type FirewallTrendsBiggestValueOutputDBParams = {
-    hostid: number;
-    hostName: string;
-    ip: string;
-    itemName: string;
-    itemid: number;
-    mbps: number;
-    dateTime: string;
+    month: string;
+    bits: ItemsByHostOutputDBParams[];
 }
 
 export type ItemsByHostOutputDBParams = {
