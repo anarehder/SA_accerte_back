@@ -31,3 +31,9 @@ export type FirewallTrendsBiggestValueOutputParams = {
     hostName: string;
     values: FirewallTrendsBiggestValueOutputDBParams[];
 }
+
+export type FirewallTrendsInputParams = {
+    start: string;
+    end: string;
+    value: string;
+}
